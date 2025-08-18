@@ -72,6 +72,49 @@ Outputs will appear under the folder provided with `--out`, e.g. `runs/fp/`:
 
 For a **Michelson** (scaffold), switch `type` to `"interferometer"` and `topology` to `"Michelson"`. See `examples/michelson_basic.json`.
 
+
+## 🚀 Installation
+Clone the repo and install dependencies:
+```bash
+git clone https://github.com/<your-username>/finesse3-simtool.git
+cd finesse3-simtool
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running Examples
+Run the Fabry–Perot cavity simulation:
+```bash
+python -m finesse3_simtool.main examples/cavity.json
+```
+
+Run the Michelson interferometer simulation:
+```bash
+python -m finesse3_simtool.main examples/michelson.json
+```
+
+Results will be saved in the `outputs/` folder as plots and data files.
+
+---
+
+
+---
+
+## 📊 Example Outputs
+- Fabry–Perot cavity: Resonance curve plot
+- Michelson interferometer: Interference fringe plot
+
+(👉 Add screenshots of result plots here once you run locally)
+
+---
+
+## 📌 Next Steps
+- Extend to more interferometer types (Mach–Zehnder, Sagnac)
+- Add support for parameter scans
+- Improve plotting styles
+
+
 ---
 
 ## Design
