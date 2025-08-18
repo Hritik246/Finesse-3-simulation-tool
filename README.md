@@ -105,7 +105,6 @@ Results will be saved in the `outputs/` folder as plots and data files.
 - Fabry–Perot cavity: Resonance curve plot
 - Michelson interferometer: Interference fringe plot
 
-(👉 Add screenshots of result plots here once you run locally)
 
 ---
 
